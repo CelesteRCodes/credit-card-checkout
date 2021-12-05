@@ -1,0 +1,104 @@
+.form {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color:aquamarine;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 600;
+  border: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: 5px;
+  margin-top: 2px
+}
+
+.separator {
+  border: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: 5px;
+  margin-bottom: 2px;
+}
+
+.button {
+  padding: 5px;
+  background-color: rgb(52, 59, 58);
+  color:white;
+  border-radius: 10px;
+ 
+} 
+
+.button:hover {
+  background-color: rgb(186, 236, 228);
+  color: black;
+  font-weight: 800;
+  opacity: 0.3
+  }
+
+.row {
+  max-width: 100%;
+}
+
+.userText {
+  display: flex;
+  flex-direction: column;
+} 
+
+.col-50 {
+ display: flex
+}
+
+.inputText {
+  border-radius: 10px;
+  background-color: rgb(192, 204, 201);
+  border: 1px solid white;
+  padding-left: 10px;
+  margin-bottom: 10px
+}
+
+.btnDiv {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.expireYear {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 100px;
+  background-color: rgb(192, 204, 201);
+  padding-left: 10px
+}
+
+.cvv {
+  margin-left: 95px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(192, 204, 201);
+  border: 1px solid white;
+  padding-left: 10px
+}
+
+.zipCode {
+  margin-left: 62px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(192, 204, 201);
+  border: 1px solid white;
+  padding-left: 10px
+}
